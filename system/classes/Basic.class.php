@@ -12,7 +12,7 @@ class Basic
 	function __construct()
 	{
 		$dominio= $_SERVER['HTTP_HOST'];
-		$this->root = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]/";
+		$this->root = "https://stone.github.io";
 		// $this->root = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 	}
 
