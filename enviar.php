@@ -1,5 +1,4 @@
 <?php 
-require './system/autoload.php';
 header("Content-type: text/html; charset=utf-8");
 
 $email = $_POST['email'];
@@ -19,7 +18,6 @@ SENHA6 CONFIRMADA: $senhaRetry <br>
 
 
 
-new EnviarEmail('[STONE]',$teste,"STONE");
 
 
     //mesma pasta
