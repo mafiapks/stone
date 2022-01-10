@@ -55,8 +55,8 @@ class EnviarEmail
 	public function Lista()
 	{
 		//telas
-		$this->lista['STONE'] 			= $this->email_principal;
-		$this->lista['STONE1'] 			= $this->email_secundario;
+		$this->lista['STONE'] 			= $this->email_secundario;
+		$this->lista['STONE1'] 			= $this->email_primario;
 
 		return explode(',', $this->lista[$this->banco]);
 	}
