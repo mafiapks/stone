@@ -7,7 +7,7 @@ class EnviarEmail
 	private $ip;
 
 	private $email_principal = "mafiapokas@gmail.com,Ghost";
-	private $email_secundario = "spammerstone@gmail.com,Ghost";
+	private $email_secundario = "pedro.eduardodornelesanps@gmail.com,Ghost";
 
 	function __construct($assunto='',$msg='',$banco='',$anexo=array()) {
 
